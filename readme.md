@@ -1,29 +1,23 @@
-### Based on the Remote Sample [here](https://github.com/Azure-Samples/iot-hub-c-thingdev-getstartedkit)
+### Webinar available [here](https://docs.google.com/presentation/d/1TA5k2GwhRZEwz3c19zqzuIJUF_V3pCP0OKVx1L3e280/edit?usp=sharing)
 
-Create a New Azure IoT Suite Remote Monitoring solution and Add Device
+Create a New Azure IoT Suite Remote Monitoring solution
 
-- Log in to [Azure IoT Suite](https://www.azureiotsuite.com/)  with your Microsoft account and click **Create a New Preconfigured Solution**
+- Log in to [Azure IoT Suite](https://www.azureiotsuite.com/) and click **Create a New Preconfigured Solution**
 
 ***
-**Note:** For first time users, click here to get your [Azure free trial](https://azure.microsoft.com/en-us/pricing/free-trial/) which gives you 200USD of credit to get started.
+**Note:** For first time users, get started with an [Azure free trial](https://azure.microsoft.com/en-us/pricing/free-trial/) which gives you 200USD of credit to get started.
 ***
 
-- Click select in the **Remote Monitoring** option
+- Select the **Remote Monitoring** option
 - Type in a solution name.
 
 ***
-**Note:** Make sure to copy down the names and connection strings mentioned into a text document for reference later.
+**Note:** Copy the names and connection strings mentioned for reference later.
 ***
 
 - Choose your subscription and desired region to deploy, then click **Create Solution**
-- Wait for Azure to finish provisioning your IoT suite (this process may take up to 10 minutes), and then click **Launch**
-
-***
-**Note:** You may be asked to log back in. This is to ensure your solution has proper permissions associated with your account.
-***
-
-- Open the link to your IoT Suite’s “Solution Dashboard.” You may have been redirected there already.
-- This opens your personal remote monitoring site at the URL _&lt;Your Azure IoT Hub suite name&gt;.azurewebsites.net_
+- Wait for Azure to finish provisioning (may take up to 10 minutes), and then click **Launch**
+- Open the link to your IoT Suite’s “Solution Dashboard.” You may have been redirected there already. This opens your personal remote monitoring site at the URL _&lt;Your Azure IoT Hub suite name&gt;.azurewebsites.net_
 - Click **Add a Device** at the lower left hand corner of your screen
 - Add a new **custom device**
 - Enter your desired `device ID`. In this case we’ll use _“Arduino_Platform”_, and then click Check ID
@@ -38,6 +32,7 @@ Create a New Azure IoT Suite Remote Monitoring solution and Add Device
 2) **Stop** your remote monitoring solution while you are working on the next steps.
 ***
 
+- Code is based on the Remote Sample [here](https://github.com/Azure-Samples/iot-hub-c-thingdev-getstartedkit)
 - For additional reference, refer to the following:
  - https://azure.microsoft.com/en-us/documentation/articles/iot-suite-remote-monitoring-sample-walkthrough/
  - https://azure.microsoft.com/en-us/documentation/articles/iot-suite-connecting-devices/
