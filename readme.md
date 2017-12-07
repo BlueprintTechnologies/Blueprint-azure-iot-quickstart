@@ -1,4 +1,4 @@
-### Webinar available [here](https://docs.google.com/presentation/d/1TA5k2GwhRZEwz3c19zqzuIJUF_V3pCP0OKVx1L3e280/edit?usp=sharing)
+### Presentation available [here](https://docs.google.com/presentation/d/1TA5k2GwhRZEwz3c19zqzuIJUF_V3pCP0OKVx1L3e280/edit?usp=sharing)
 
 Create a New Azure IoT Suite Remote Monitoring solution
 
