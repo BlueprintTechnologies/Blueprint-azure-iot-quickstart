@@ -1,4 +1,4 @@
-## Based on the Remote Sample [here] (https://github.com/Azure-Samples/iot-hub-c-thingdev-getstartedkit)
+### Based on the Remote Sample [here](https://github.com/Azure-Samples/iot-hub-c-thingdev-getstartedkit)
 
 Create a New Azure IoT Suite Remote Monitoring solution and Add Device
 
