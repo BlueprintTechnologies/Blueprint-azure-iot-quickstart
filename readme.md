@@ -35,7 +35,7 @@ Create a New Azure IoT Suite Remote Monitoring solution and Add Device
 
 1) Disable the simulated devices created with the solution (Go to Devices>>Select the device>> on the device details menu on the right, clich on Disable Device. Repeat with all the simulated devices).
 
-2) **Stop** your remote monitoring solution while you are working on the next steps. (See: [Troubleshooting](#troubleshooting))
+2) **Stop** your remote monitoring solution while you are working on the next steps.
 ***
 
 - For additional reference, refer to the following:
@@ -67,8 +67,6 @@ Create a New Azure IoT Suite Remote Monitoring solution and Add Device
 
 - After going through this, you should have a working sample with a blinking light on your board.
     - If you can’t upload the sample, reconnect the device, then the power switch to OFF. Press the upload button, and flip the switch back to ON.
-
-<a name="section1.6" />
 
 ## Install Library Dependencies
 
@@ -122,7 +120,7 @@ The Adafruit Sensor library is also needed. This can be downloaded [here](https:
 **Note**: When first starting you will likely see a “Fetching NTP epoch time failed” error – This is normal, and it trying to sync with Azure. This can take even up to 30 seconds to find a NTP server to sync with. One it is synced, it should start transmitting from there.
 ***
 
-## 1.9 View the Sensor Data from the Remote Monitoring Portal
+## View the Sensor Data from the Remote Monitoring Portal
 
 - Once you have the sample running, visit your dashboard by visiting azureiotsuite.com and clicking “Launch” on your solution
 - Make sure the “Device to View” in the upper right is set to your device
