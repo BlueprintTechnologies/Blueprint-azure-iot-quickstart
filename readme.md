@@ -1,3 +1,5 @@
+## Based on the Remote Sample [here] (https://github.com/Azure-Samples/iot-hub-c-thingdev-getstartedkit)
+
 Create a New Azure IoT Suite Remote Monitoring solution and Add Device
 
 - Log in to [Azure IoT Suite](https://www.azureiotsuite.com/)  with your Microsoft account and click **Create a New Preconfigured Solution**
